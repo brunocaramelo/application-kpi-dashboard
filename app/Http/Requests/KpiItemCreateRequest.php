@@ -32,4 +32,13 @@ class KpiItemCreateRequest extends FormRequest
         ];
     }
 
+    protected function failedValidation(Validator $validator)
+    {
+        throw new HttpResponseException(response()->json([
+            'success' => false,
+            'message' => 'Validation errors occurred.',
+            'data' => $validator->errors()
+        ], 422));
+    }
+
 }

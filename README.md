@@ -122,4 +122,8 @@ Import to Postman (to test localhost API):
 
 Real Simple Video Tutorial About this application (user context)
 
-- https://youtu.be/nWd_HYaJkZ4
+- https://www.youtube.com/watch?v=nWd_HYaJkZ4&t=2s
+
+Tecnical explain this application (developer context)
+
+- https://www.youtube.com/watch?v=2msurTV74O0
