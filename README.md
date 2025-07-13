@@ -98,6 +98,6 @@ After installation, the access address is:
 
 ## API Documentation
 
-    Import to Postman:
+Import to Postman (to test localhost API):
 
-    - https://github.com/brunocaramelo/application-kpi-dashboard/blob/main/documentation/api/KPI-API-LOCAL.postman_collection.json
+- https://github.com/brunocaramelo/application-kpi-dashboard/blob/main/documentation/api/KPI-API-LOCAL.postman_collection.json
