@@ -14,16 +14,16 @@ class UserTesterSeeder extends Seeder
     {
         $listUsers = [
             [
-                'name' => 'Example',
-                'email' => 'user@example.com',
-                'password' => Hash::make('password123'),
-
+                'id' => 1,
+                'name' => 'Admin',
+                'email' => 'admin@test.com',
+                'password' => Hash::make('password'),
             ]
         ];
 
         foreach($listUsers as $item) {
 
-            if (User::where('email', $item['email'])->exists()) {
+            if (User::where('id', $item['id'])->exists()) {
                 continue;
             }
 

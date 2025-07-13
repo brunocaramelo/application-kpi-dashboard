@@ -11,8 +11,8 @@ class UserRepository implements UserInterface
     public function update(array $data, $id)
     {
         $inst = $this->model::find($id);
-        $inst->update($data);
-
+        $inst->fill($data)->save();
+        
         return $this->model::find($id);
     }
 

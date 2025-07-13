@@ -17,16 +17,15 @@ beforeEach(function () {
 describe('LoginService', function () {
 
     test('doLogin with valid credentials returns token', function () {
-        $password = 'password123';
-
+        
         $loginData = [
-            'email' => 'user@example.com',
-            'password' => $password,
+            'email' => 'admin@test.com',
+            'password' => 'password',
         ];
 
         $service = new LoginService(new UserRepository());
         $response = $service->doLogin($loginData);
-
+        
         expect($response)
             ->toBeArray()
             ->toHaveKeys(['status', 'message', 'access_token'])
