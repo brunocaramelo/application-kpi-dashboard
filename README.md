@@ -79,7 +79,7 @@ The application is separated into the following containers
 
     4 - docker compose exec webserver /app/artisan test;
 
-### Explain commands (step 3) 
+#### Explain commands (step 3) 
     1 - run migrations (database structure)
 
     2 - run seed (database data create, depends of enviroment)
