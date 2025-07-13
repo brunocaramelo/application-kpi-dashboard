@@ -3,7 +3,8 @@
 
 ## Technical specifications
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e0ecb8eadad4d5e96d6da43d8a97342)](https://app.codacy.com/gh/brunocaramelo/sample_user_app_spa/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/73d7af53c2514834afba88d0926236a5)](https://app.codacy.com/gh/brunocaramelo/application-kpi-dashboard/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/4e0ecb8eadad4d5e96d6da43d8a97342)](https://app.codacy.com/gh/brunocaramelo/sample_user_app_spa/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
 
