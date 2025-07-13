@@ -27,7 +27,7 @@ class ItemKpiObserver
     }
 
 
-    public function deleted(KpiItem $task): void
+    public function deleted(KpiItem $item): void
     {
         (new CleanCacheByTagAndKeysAction())->handle([[
             'tag' => 'kpiItem',
