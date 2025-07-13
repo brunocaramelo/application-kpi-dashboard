@@ -7,8 +7,6 @@ use App\Repositories\UserRepository;
 
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 
 uses(RefreshDatabase::class);
 

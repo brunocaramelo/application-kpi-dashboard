@@ -6,8 +6,6 @@ use App\Services\KpiService;
 use App\Repositories\KpiItemRepository;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 
 uses(RefreshDatabase::class);
 
