@@ -14,10 +14,9 @@ class UserTesterSeeder extends Seeder
     {
         $listUsers = [
             [
-                'name' => 'Example',
-                'email' => 'user@example.com',
-                'password' => Hash::make('password123'),
-
+                'name' => 'Admin',
+                'email' => 'admin@test.com',
+                'password' => Hash::make('password'),
             ]
         ];
 
