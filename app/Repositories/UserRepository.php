@@ -10,7 +10,10 @@ class UserRepository implements UserInterface
 
     public function update(array $data, $id)
     {
-        return $this->model::find($id)->update($data);
+        $inst = $this->model::find($id);
+        $inst->update($data);
+
+        return $this->model::find($id);
     }
 
     public function create(array $data)

@@ -68,5 +68,36 @@ describe('LoginService', function () {
             ->toHaveKey('message', 'Email ou senha incorretos');
     });
 
+    test('create user sucess', function () {
+        $loginData = [
+            'name' => 'nonexistent_1',
+            'email' => 'nonexistent_1@example.com',
+            'password' => 'anypassword',
+        ];
+
+        $service = new UserRepository();
+        $response = $service->create($loginData)->toArray();
+
+        expect($response)
+            ->toBeArray()
+            ->toHaveKeys(['id', 'email']);
+    });
+
+    test( 'update user sucess', function () {
+
+        $loginData = [
+            'name' => 'nonexistent_2',
+            'email' => 'nonexistent_2@example.com',
+            'password' => 'anypassword',
+        ];
+
+        $service = new UserRepository();
+        $response = $service->update($loginData, 1)->toArray();
+
+        expect($response)
+            ->toBeArray()
+            ->toHaveKeys(['id', 'email']);
+    });
+
 
 });
