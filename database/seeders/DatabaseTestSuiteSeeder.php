@@ -5,10 +5,10 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-use Database\Seeders\Demo\{UserTesterSeeder,
+use Database\Seeders\Tests\{UserTesterSeeder,
                            KpiTypeTesterSeeder,
                            KpiItemsTesterSeeder};
-class DatabaseSeeder extends Seeder
+class DatabaseTestSuiteSeeder extends Seeder
 {
     /**
      * Seed the application's database.
