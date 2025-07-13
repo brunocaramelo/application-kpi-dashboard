@@ -4,11 +4,19 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
+use App\Events\{UserCreated,
+                UserRememberPassword};
+use App\Listeners\{WelcomeUser,
+                  NotificationUserRememberPassword};
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
      */
+
+     protected $listen = [];
+
     public function register(): void
     {
         //
@@ -19,6 +27,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+
     }
 }
