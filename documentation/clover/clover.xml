@@ -105,12 +105,6 @@
       <line num="32" type="stmt" count="5"/>
       <metrics loc="36" ncloc="36" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="14" coveredelements="14"/>
     </file>
-    <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Interfaces/KpiItemInterface.php">
-      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
-    <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Interfaces/UserInterface.php">
-      <metrics loc="12" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Models/KpiItem.php">
       <class name="App\Models\KpiItem" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
