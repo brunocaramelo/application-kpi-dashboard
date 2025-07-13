@@ -44,6 +44,7 @@
         <exclude>
             <directory>app/Http/Kernel</directory>
             <directory>app/Actions/Cache</directory>
+            <directory>app/Actions/Action.php</directory>
             <directory>app/Http/Middleware</directory>
           </exclude>
         <report>
