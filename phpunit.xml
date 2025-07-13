@@ -46,6 +46,7 @@
         </include>
         <exclude>
             <directory>app/Http/Kernel</directory>
+            <directory>app/Interfaces</directory>
             <directory>app/Actions/Cache</directory>
             <directory>app/Actions/Action.php</directory>
             <directory>app/Models/KpiType.php</directory>
