@@ -17,7 +17,7 @@ beforeEach(function () {
 describe('LoginService', function () {
 
     test('doLogin with valid credentials returns token', function () {
-        
+
         $loginData = [
             'email' => 'admin@test.com',
             'password' => 'password',
@@ -25,7 +25,7 @@ describe('LoginService', function () {
 
         $service = new LoginService(new UserRepository());
         $response = $service->doLogin($loginData);
-        
+
         expect($response)
             ->toBeArray()
             ->toHaveKeys(['status', 'message', 'access_token'])
@@ -96,6 +96,23 @@ describe('LoginService', function () {
         expect($response)
             ->toBeArray()
             ->toHaveKeys(['id', 'email']);
+    });
+
+    test( 'kpi item show parents', function () {
+
+        $response = \App\Models\KpiType::find(1)->kpis->toArray()[0];
+
+        expect($response)
+            ->toBeArray()
+            ->toHaveKeys(['id', 'valor']);
+    });
+
+    test( 'kpi item remove', function () {
+
+        $response = \App\Models\KpiItem::find(2)->delete();
+
+        expect($response)->toBe(true);
+
     });
 
 

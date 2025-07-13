@@ -31,7 +31,7 @@ describe('KpisController', function () {
     });
 
     test('search with filters and no results', function () {
-        $response = $this->getJson('/api/kpis?type_id=999')
+        $response = $this->getJson('/api/kpis?type_id=999&titulo=none')
                  ->assertStatus(200)
                  ->assertJsonStructure([
                      'data',
