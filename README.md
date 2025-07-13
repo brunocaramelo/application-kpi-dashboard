@@ -115,3 +115,9 @@ After installation, the access address is:
 Import to Postman (to test localhost API):
 
 - https://github.com/brunocaramelo/application-kpi-dashboard/blob/main/documentation/api/KPI-API-LOCAL.postman_collection.json
+
+## Runing Application Video
+
+Real Simple Video Tutorial About this application (user context)
+
+- https://youtu.be/nWd_HYaJkZ4
