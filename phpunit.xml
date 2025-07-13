@@ -27,7 +27,10 @@
         <env name="QUEUE_CONNECTION" value="sync" force="true"/>
         <env name="SESSION_DRIVER" value="array" force="true"/>
         <env name="TELESCOPE_ENABLED" value="false" force="true"/>
-
+        <env name="DB_CONNECTION" value="sqlite" force="true"/>
+        <env name="DB_DATABASE" value=":memory:" force="true"/>
+      
+        <server name="APP_ENV" value="testing" force="true" />
         <server name="APP_SERVER" value="testing" force="true"/>
         <server name="APP_MAINTENANCE_DRIVER" value="file" force="true"/>
         <server name="BCRYPT_ROUNDS" value="4"/>
