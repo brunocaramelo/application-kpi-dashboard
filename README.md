@@ -97,3 +97,7 @@ After installation, the access address is:
     
 
 ## API Documentation
+
+    Import to Postman:
+
+    - https://github.com/brunocaramelo/application-kpi-dashboard/blob/main/documentation/api/KPI-API-LOCAL.postman_collection.json
