@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1752377514">
-  <project timestamp="1752377514">
+<coverage generated="1752423286">
+  <project timestamp="1752423286">
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Actions/Action.php">
       <class name="App\Actions\Action" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
@@ -115,122 +115,125 @@
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Models/KpiType.php">
       <class name="App\Models\KpiType" namespace="global">
-        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
-      <line num="16" type="method" name="kpis" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="18" type="stmt" count="0"/>
-      <metrics loc="21" ncloc="21" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      <line num="16" type="method" name="kpis" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="18" type="stmt" count="1"/>
+      <metrics loc="21" ncloc="21" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Models/User.php">
       <class name="App\Models\User" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
       </class>
-      <line num="46" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="17"/>
-      <line num="48" type="stmt" count="17"/>
-      <line num="49" type="stmt" count="17"/>
-      <line num="50" type="stmt" count="17"/>
-      <line num="51" type="stmt" count="17"/>
+      <line num="46" type="method" name="casts" visibility="protected" complexity="1" crap="1" count="21"/>
+      <line num="48" type="stmt" count="21"/>
+      <line num="49" type="stmt" count="21"/>
+      <line num="50" type="stmt" count="21"/>
+      <line num="51" type="stmt" count="21"/>
       <metrics loc="55" ncloc="39" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Observers/ItemKpiObserver.php">
       <class name="App\Observers\ItemKpiObserver" namespace="global">
-        <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="10" elements="18" coveredelements="12"/>
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
       </class>
-      <line num="11" type="method" name="created" visibility="public" complexity="1" crap="1" count="15"/>
-      <line num="13" type="stmt" count="15"/>
-      <line num="14" type="stmt" count="15"/>
-      <line num="15" type="stmt" count="15"/>
-      <line num="16" type="stmt" count="15"/>
-      <line num="17" type="stmt" count="15"/>
+      <line num="11" type="method" name="created" visibility="public" complexity="1" crap="1" count="19"/>
+      <line num="13" type="stmt" count="19"/>
+      <line num="14" type="stmt" count="19"/>
+      <line num="15" type="stmt" count="19"/>
+      <line num="16" type="stmt" count="19"/>
+      <line num="17" type="stmt" count="19"/>
       <line num="20" type="method" name="updated" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="22" type="stmt" count="2"/>
       <line num="23" type="stmt" count="2"/>
       <line num="24" type="stmt" count="2"/>
       <line num="25" type="stmt" count="2"/>
       <line num="26" type="stmt" count="2"/>
-      <line num="30" type="method" name="deleted" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="32" type="stmt" count="0"/>
-      <line num="33" type="stmt" count="0"/>
-      <line num="34" type="stmt" count="0"/>
-      <line num="35" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <metrics loc="41" ncloc="41" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="10" elements="18" coveredelements="12"/>
+      <line num="30" type="method" name="deleted" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <metrics loc="41" ncloc="41" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="18" coveredelements="18"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Providers/AppServiceProvider.php">
       <class name="App\Providers\AppServiceProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="15" type="method" name="register" visibility="public" complexity="1" crap="1" count="20"/>
-      <line num="18" type="stmt" count="20"/>
-      <line num="23" type="method" name="boot" visibility="public" complexity="1" crap="1" count="20"/>
-      <line num="26" type="stmt" count="20"/>
+      <line num="15" type="method" name="register" visibility="public" complexity="1" crap="1" count="24"/>
+      <line num="18" type="stmt" count="24"/>
+      <line num="23" type="method" name="boot" visibility="public" complexity="1" crap="1" count="24"/>
+      <line num="26" type="stmt" count="24"/>
       <metrics loc="28" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Providers/ObserverServiceProvider.php">
       <class name="App\Providers\ObserverServiceProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="20"/>
-      <line num="17" type="stmt" count="20"/>
-      <line num="20" type="method" name="register" visibility="public" complexity="1" crap="1" count="20"/>
-      <line num="23" type="stmt" count="20"/>
+      <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="24"/>
+      <line num="17" type="stmt" count="24"/>
+      <line num="20" type="method" name="register" visibility="public" complexity="1" crap="1" count="24"/>
+      <line num="23" type="stmt" count="24"/>
       <metrics loc="25" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Providers/RepositoryBindProvider.php">
       <class name="App\Providers\RepositoryBindProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
       </class>
-      <line num="12" type="method" name="register" visibility="public" complexity="1" crap="1" count="20"/>
-      <line num="14" type="stmt" count="20"/>
-      <line num="15" type="stmt" count="20"/>
-      <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="20"/>
-      <line num="24" type="stmt" count="20"/>
+      <line num="12" type="method" name="register" visibility="public" complexity="1" crap="1" count="24"/>
+      <line num="14" type="stmt" count="24"/>
+      <line num="15" type="stmt" count="24"/>
+      <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="24"/>
+      <line num="24" type="stmt" count="24"/>
       <metrics loc="26" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Repositories/KpiItemRepository.php">
       <class name="App\Repositories\KpiItemRepository" namespace="global">
-        <metrics complexity="5" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="20" elements="26" coveredelements="24"/>
+        <metrics complexity="5" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="27" coveredelements="27"/>
       </class>
       <line num="11" type="method" name="update" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="13" type="stmt" count="2"/>
       <line num="14" type="stmt" count="2"/>
-      <line num="16" type="stmt" count="2"/>
-      <line num="19" type="method" name="getById" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="21" type="stmt" count="2"/>
+      <line num="15" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="20" type="method" name="getById" visibility="public" complexity="1" crap="1" count="2"/>
       <line num="22" type="stmt" count="2"/>
       <line num="23" type="stmt" count="2"/>
       <line num="24" type="stmt" count="2"/>
-      <line num="27" type="method" name="create" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="29" type="stmt" count="2"/>
-      <line num="32" type="method" name="searchPaginate" visibility="public" complexity="1" crap="1" count="3"/>
-      <line num="34" type="stmt" count="3"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="28" type="method" name="create" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="30" type="stmt" count="2"/>
+      <line num="33" type="method" name="searchPaginate" visibility="public" complexity="1" crap="1" count="3"/>
       <line num="35" type="stmt" count="3"/>
       <line num="36" type="stmt" count="3"/>
       <line num="37" type="stmt" count="3"/>
       <line num="38" type="stmt" count="3"/>
-      <line num="41" type="method" name="searchPaginateQuery" visibility="public" complexity="1" crap="1.00" count="3"/>
-      <line num="43" type="stmt" count="3"/>
+      <line num="39" type="stmt" count="3"/>
+      <line num="42" type="method" name="searchPaginateQuery" visibility="public" complexity="1" crap="1" count="3"/>
       <line num="44" type="stmt" count="3"/>
-      <line num="45" type="stmt" count="1"/>
-      <line num="46" type="stmt" count="3"/>
+      <line num="45" type="stmt" count="3"/>
+      <line num="46" type="stmt" count="1"/>
       <line num="47" type="stmt" count="3"/>
-      <line num="48" type="stmt" count="0"/>
-      <line num="49" type="stmt" count="3"/>
+      <line num="48" type="stmt" count="3"/>
+      <line num="49" type="stmt" count="1"/>
       <line num="50" type="stmt" count="3"/>
-      <metrics loc="54" ncloc="54" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="20" elements="26" coveredelements="24"/>
+      <line num="51" type="stmt" count="3"/>
+      <metrics loc="55" ncloc="55" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="27" coveredelements="27"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Repositories/UserRepository.php">
       <class name="App\Repositories\UserRepository" namespace="global">
-        <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+        <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
       </class>
-      <line num="11" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="13" type="stmt" count="0"/>
-      <line num="16" type="method" name="create" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="18" type="stmt" count="0"/>
-      <line num="21" type="method" name="findByEmail" visibility="public" complexity="1" crap="1" count="2"/>
-      <line num="23" type="stmt" count="2"/>
-      <line num="24" type="stmt" count="2"/>
-      <metrics loc="27" ncloc="27" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+      <line num="11" type="method" name="update" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="13" type="stmt" count="1"/>
+      <line num="14" type="stmt" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="19" type="method" name="create" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="24" type="method" name="findByEmail" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="26" type="stmt" count="2"/>
+      <line num="27" type="stmt" count="2"/>
+      <metrics loc="30" ncloc="30" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
     </file>
     <file name="/home/terced-brunos/docker-apps/application-kpi-dashboard/app/Services/KpiService.php">
       <class name="App\Services\KpiService" namespace="global">
@@ -268,6 +271,6 @@
       <line num="30" type="stmt" count="2"/>
       <metrics loc="35" ncloc="35" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="14" coveredelements="14"/>
     </file>
-    <metrics files="21" loc="666" ncloc="619" classes="18" methods="47" coveredmethods="39" conditionals="0" coveredconditionals="0" statements="119" coveredstatements="102" elements="166" coveredelements="141"/>
+    <metrics files="18" loc="585" ncloc="554" classes="17" methods="45" coveredmethods="44" conditionals="0" coveredconditionals="0" statements="117" coveredstatements="114" elements="162" coveredelements="158"/>
   </project>
 </coverage>
