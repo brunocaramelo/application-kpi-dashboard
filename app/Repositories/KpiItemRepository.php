@@ -11,7 +11,8 @@ class KpiItemRepository implements KpiItemInterface
     public function update(array $data, $id)
     {
         $this->model::find($id)
-                    ->update($data);
+                    ->fill($data)
+                    ->save();
 
         return $this->model::find($id);
     }

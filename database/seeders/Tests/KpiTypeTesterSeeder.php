@@ -14,10 +14,12 @@ class KpiTypeTesterSeeder extends Seeder
     {
         $listItems = [
             [
+                'id' => 1,
                 'code' => 'vendas-do-dia',
                 'name' => 'Vendas do Dia',
             ],
             [
+                'id' => 2,
                 'code' => 'ltv',
                 'name' => 'LTV',
             ],
@@ -25,7 +27,7 @@ class KpiTypeTesterSeeder extends Seeder
 
         foreach($listItems as $item) {
 
-            if (KpiType::where('code', $item['code'])->exists()) {
+            if (KpiType::where('id', $item['id'])->exists()) {
                 continue;
             }
 
