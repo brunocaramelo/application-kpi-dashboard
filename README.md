@@ -5,8 +5,10 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/73d7af53c2514834afba88d0926236a5)](https://app.codacy.com/gh/brunocaramelo/application-kpi-dashboard/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
+<!-- 
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/73d7af53c2514834afba88d0926236a5)](https://app.codacy.com/gh/brunocaramelo/application-kpi-dashboard/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage) -->
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/73d7af53c2514834afba88d0926236a5)](https://app.codacy.com/gh/brunocaramelo/application-kpi-dashboard/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/73d7af53c2514834afba88d0926236a5)](https://app.codacy.com/gh/brunocaramelo/application-kpi-dashboard/commits/35ec9cd50824f3b88e3298e80ef2733ebd6ee5df/coverage?originBranch=main)
 
 
 This application has the following specifications: 
