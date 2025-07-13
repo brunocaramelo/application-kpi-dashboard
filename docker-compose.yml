@@ -1,0 +1,55 @@
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mysql-dashboard-kpi
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u $$MYSQL_USER -p$$MYSQL_PASSWORD"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    volumes:
+      - mariadb-data:/var/lib/mysql:rw
+    ports:
+      - "3306:3306"
+    env_file:
+      - docker/docker-compose-env/database.env
+  redis:
+    image: redis:alpine
+    container_name: redis-dashboard-kpi
+    command: ['redis-server', '--bind','0.0.0.0','--requirepass', 'testes','--port','6380']
+    volumes:
+      - redis-data:/data
+
+  webserver:
+    build:
+      context: .
+      dockerfile: ./docker/webserver/dockerfile/webserver.dockerfile
+    container_name: webserver-dashboard-kpi
+    restart: on-failure
+    volumes:
+     - .:/app:rw
+     - composer-vendor-data:/app/vendor:rw
+     - vite-compiled-data:/app/public/build:rw
+     - ./docker/webserver/startup/startup.sh:/app/startup.sh
+    ports:
+      - 80:80
+      - 8003:8003
+    depends_on:
+      - mariadb
+      - redis
+    env_file:
+      - docker/docker-compose-env/application.env
+    links:
+      - mariadb
+      - redis
+
+volumes:
+  composer-vendor-data:
+    driver: "local"
+  vite-compiled-data:
+    driver: "local"
+  redis-data:
+    driver: "local"
+  mariadb-data:
+    driver: "local"
