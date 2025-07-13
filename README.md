@@ -54,6 +54,18 @@ The application is separated into the following containers
     - 6380(redis) 
      are busy.
 
+## Possible Problems (VERY IMPORTANT)
+    
+    In first install, maybe the database is not open to connections, and the startup script of webserver cant run migrations and seeders.
+    - Solutions
+    1 - Stop and run docker compose up again
+
+    2 - if containers are running, you need execute: 
+
+        docker compose exec webserver php /app/artisan migrate;
+        docker compose exec webserver php /app/artisan db:seed;
+
+
 
 3 - Enter the application's home directory and execute the following commands:
     
